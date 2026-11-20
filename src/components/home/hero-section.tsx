@@ -230,9 +230,7 @@ export function HeroSection() {
                   disabled={status === "loading"}
                   className="bg-[#d4ff3a] hover:bg-[#c5f525] text-[#070709] font-semibold text-xs sm:text-sm px-5 py-2.5 rounded-lg transition-colors whitespace-nowrap shrink-0 inline-flex items-center gap-1.5 cursor-pointer disabled:opacity-70"
                 >
-                  <span>
-                    {status === "loading" ? "Reserving..." : "Request Invite"}
-                  </span>
+                  <span>{status === "loading" ? "Reserving..." : ""}</span>
                   <ArrowUpRight className="w-4 h-4" />
                 </animated.button>
               </div>
