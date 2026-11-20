@@ -1,6 +1,7 @@
 "use client";
 
 import { ClientLogos } from "@/components/home/client-logos";
+import { FeatureBento } from "@/components/home/feature-bento";
 import { HeroSection } from "@/components/home/hero-section";
 import { IntroBanner } from "@/components/home/intro-banner";
 
@@ -20,6 +21,7 @@ export default function Home() {
 
       <ClientLogos />
       <IntroBanner />
+      <FeatureBento />
     </main>
   );
 }
