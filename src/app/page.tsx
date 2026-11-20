@@ -6,6 +6,7 @@ import { FeatureBento } from "@/components/home/feature-bento";
 import { HeroSection } from "@/components/home/hero-section";
 import { HowItWorks } from "@/components/home/how-it-works";
 import { IntroBanner } from "@/components/home/intro-banner";
+import { MetricsStrip } from "@/components/home/metrics-strip";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <FeatureBento />
       <HowItWorks />
       <CustomerStory />
+      <MetricsStrip />
     </main>
   );
 }
