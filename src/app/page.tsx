@@ -2,6 +2,7 @@
 
 import { ClientLogos } from "@/components/home/client-logos";
 import { CustomerStory } from "@/components/home/customer-story";
+import { FaqAccordion } from "@/components/home/faq-accordion";
 import { FeatureBento } from "@/components/home/feature-bento";
 import { HeroSection } from "@/components/home/hero-section";
 import { HowItWorks } from "@/components/home/how-it-works";
@@ -30,6 +31,7 @@ export default function Home() {
       <CustomerStory />
       <MetricsStrip />
       <TestimonialsGrid />
+      <FaqAccordion />
     </main>
   );
 }
