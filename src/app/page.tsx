@@ -2,6 +2,7 @@
 
 import { ClientLogos } from "@/components/home/client-logos";
 import { HeroSection } from "@/components/home/hero-section";
+import { IntroBanner } from "@/components/home/intro-banner";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       </div>
 
       <ClientLogos />
+      <IntroBanner />
     </main>
   );
 }
