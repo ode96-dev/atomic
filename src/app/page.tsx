@@ -3,6 +3,7 @@
 import { ClientLogos } from "@/components/home/client-logos";
 import { FeatureBento } from "@/components/home/feature-bento";
 import { HeroSection } from "@/components/home/hero-section";
+import { HowItWorks } from "@/components/home/how-it-works";
 import { IntroBanner } from "@/components/home/intro-banner";
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
       <ClientLogos />
       <IntroBanner />
       <FeatureBento />
+      <HowItWorks />
     </main>
   );
 }
