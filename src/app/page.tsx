@@ -1,5 +1,6 @@
 "use client";
 
+import { ClientLogos } from "@/components/home/client-logos";
 import { HeroSection } from "@/components/home/hero-section";
 
 export default function Home() {
@@ -15,6 +16,8 @@ export default function Home() {
       <div id="hero">
         <HeroSection />
       </div>
+
+      <ClientLogos />
     </main>
   );
 }
